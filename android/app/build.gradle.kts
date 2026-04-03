@@ -43,8 +43,8 @@ android {
     ndkVersion = flutter.ndkVersion
 
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_17
-        targetCompatibility = JavaVersion.VERSION_17
+        sourceCompatibility = JavaVersion.VERSION_21
+        targetCompatibility = JavaVersion.VERSION_21
         // enable support for the new language APIs on older devices
         // e.g. `java/util/function/Supplier` on Android 5.0 (API 21)
         isCoreLibraryDesugaringEnabled = true
