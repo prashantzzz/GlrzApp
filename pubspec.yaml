@@ -155,6 +155,13 @@ dev_dependencies:
   flutter_lints:
   shared_preferences_platform_interface:
   test:
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: true
+  image_path: "assets/GalleryzeIcon.png"
+  adaptive_icon_background: "#121212"
+  adaptive_icon_foreground: "assets/GalleryzeIcon.png"
 
 flutter:
   assets:

@@ -9,7 +9,7 @@ plugins {
     id("dev.flutter.flutter-gradle-plugin")
 }
 
-val packageName = "deckers.thibault.aves"
+val packageName = "com.galleryze.app"
 
 // Keys
 
@@ -38,7 +38,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace = "deckers.thibault.aves"
+    namespace = "com.galleryze.app"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -84,32 +84,6 @@ android {
         create("play") {
             // Google Play
             dimension = "store"
-        }
-
-        create("izzy") {
-            // IzzyOnDroid
-            // check offending libraries with `scanapk`
-            // cf https://android.izzysoft.de/articles/named/app-modules-2
-            dimension = "store"
-        }
-
-        create("libre") {
-            // F-Droid
-            // check offending libraries with `fdroidserver`
-            // cf https://f-droid.org/en/docs/Submitting_to_F-Droid_Quick_Start_Guide/
-            dimension = "store"
-            applicationIdSuffix = ".libre"
-        }
-
-        create("libre_rom") {
-            // integration in custom ROM
-            dimension = "store"
-            applicationIdSuffix = ".libre"
-
-            packaging {
-                // disable compression for native libraries (.so files)
-                jniLibs.useLegacyPackaging = false
-            }
         }
     }
 

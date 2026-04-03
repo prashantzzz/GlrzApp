@@ -1,4 +1,4 @@
-package deckers.thibault.aves
+package com.galleryze.app
 
 import android.annotation.SuppressLint
 import android.app.KeyguardManager
