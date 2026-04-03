@@ -1,4 +1,4 @@
-package deckers.thibault.aves.model.provider
+package com.galleryze.app.model.provider
 
 import android.content.ContentResolver
 import android.content.Context

@@ -1,19 +1,19 @@
-package deckers.thibault.aves.channel.streams.darttoplatform
+package com.galleryze.app.channel.streams.darttoplatform
 
 import android.app.Activity
 import android.util.Log
 import androidx.core.net.toUri
-import deckers.thibault.aves.channel.calls.MediaEditHandler.Companion.cancelledOps
-import deckers.thibault.aves.channel.streams.BaseStreamHandler
-import deckers.thibault.aves.model.AvesEntry
-import deckers.thibault.aves.model.FieldMap
-import deckers.thibault.aves.model.NameConflictStrategy
-import deckers.thibault.aves.model.provider.ImageProvider.ImageOpCallback
-import deckers.thibault.aves.model.provider.ImageProviderFactory.getProvider
-import deckers.thibault.aves.model.provider.MediaStoreImageProvider
-import deckers.thibault.aves.utils.LogUtils
-import deckers.thibault.aves.utils.StorageUtils
-import deckers.thibault.aves.utils.StorageUtils.ensureTrailingSeparator
+import com.galleryze.app.channel.calls.MediaEditHandler.Companion.cancelledOps
+import com.galleryze.app.channel.streams.BaseStreamHandler
+import com.galleryze.app.model.AvesEntry
+import com.galleryze.app.model.FieldMap
+import com.galleryze.app.model.NameConflictStrategy
+import com.galleryze.app.model.provider.ImageProvider.ImageOpCallback
+import com.galleryze.app.model.provider.ImageProviderFactory.getProvider
+import com.galleryze.app.model.provider.MediaStoreImageProvider
+import com.galleryze.app.utils.LogUtils
+import com.galleryze.app.utils.StorageUtils
+import com.galleryze.app.utils.StorageUtils.ensureTrailingSeparator
 import kotlinx.coroutines.launch
 
 class ImageOpStreamHandler(private val activity: Activity, private val arguments: Any?) : BaseStreamHandler() {

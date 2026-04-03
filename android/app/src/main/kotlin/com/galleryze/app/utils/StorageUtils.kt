@@ -1,4 +1,4 @@
-package deckers.thibault.aves.utils
+package com.galleryze.app.utils
 
 import android.Manifest
 import android.content.ContentResolver
@@ -17,12 +17,12 @@ import android.util.Log
 import androidx.core.net.toUri
 import androidx.core.text.isDigitsOnly
 import com.commonsware.cwac.document.DocumentFileCompat
-import deckers.thibault.aves.model.provider.ImageProvider
-import deckers.thibault.aves.utils.FileUtils.transferFrom
-import deckers.thibault.aves.utils.MimeTypes.isImage
-import deckers.thibault.aves.utils.MimeTypes.isVideo
-import deckers.thibault.aves.utils.PermissionManager.getGrantedDirForPath
-import deckers.thibault.aves.utils.UriUtils.tryParseId
+import com.galleryze.app.model.provider.ImageProvider
+import com.galleryze.app.utils.FileUtils.transferFrom
+import com.galleryze.app.utils.MimeTypes.isImage
+import com.galleryze.app.utils.MimeTypes.isVideo
+import com.galleryze.app.utils.PermissionManager.getGrantedDirForPath
+import com.galleryze.app.utils.UriUtils.tryParseId
 import java.io.File
 import java.io.FileInputStream
 import java.io.IOException

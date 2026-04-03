@@ -1,4 +1,4 @@
-package deckers.thibault.aves.metadata
+package com.galleryze.app.metadata
 
 import android.util.Log
 import com.drew.lang.Rational
@@ -11,7 +11,7 @@ import com.drew.metadata.exif.PanasonicRawIFD0Directory
 import com.drew.metadata.exif.makernotes.OlympusCameraSettingsMakernoteDirectory
 import com.drew.metadata.exif.makernotes.OlympusImageProcessingMakernoteDirectory
 import com.drew.metadata.exif.makernotes.OlympusMakernoteDirectory
-import deckers.thibault.aves.utils.LogUtils
+import com.galleryze.app.utils.LogUtils
 import java.text.ParseException
 import java.text.SimpleDateFormat
 import java.util.Locale

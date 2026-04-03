@@ -1,4 +1,4 @@
-package deckers.thibault.aves.glide
+package com.galleryze.app.glide
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -20,9 +20,9 @@ import com.bumptech.glide.load.model.ModelLoaderFactory
 import com.bumptech.glide.load.model.MultiModelLoaderFactory
 import com.bumptech.glide.module.LibraryGlideModule
 import com.bumptech.glide.signature.ObjectKey
-import deckers.thibault.aves.utils.BitmapUtils
-import deckers.thibault.aves.utils.MemoryUtils
-import deckers.thibault.aves.utils.StorageUtils.openMetadataRetriever
+import com.galleryze.app.utils.BitmapUtils
+import com.galleryze.app.utils.MemoryUtils
+import com.galleryze.app.utils.StorageUtils.openMetadataRetriever
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob

@@ -1,10 +1,10 @@
-package deckers.thibault.aves.channel.calls.window
+package com.galleryze.app.channel.calls.window
 
 import android.content.ContextWrapper
 import android.provider.Settings
 import android.util.Log
-import deckers.thibault.aves.channel.calls.Coresult
-import deckers.thibault.aves.utils.LogUtils
+import com.galleryze.app.channel.calls.Coresult
+import com.galleryze.app.utils.LogUtils
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel
 

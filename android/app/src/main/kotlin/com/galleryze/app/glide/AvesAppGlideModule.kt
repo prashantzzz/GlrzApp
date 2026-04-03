@@ -1,4 +1,4 @@
-package deckers.thibault.aves.glide
+package com.galleryze.app.glide
 
 import android.content.Context
 import android.net.Uri
@@ -21,10 +21,10 @@ import com.bumptech.glide.load.engine.cache.MemorySizeCalculator
 import com.bumptech.glide.load.resource.bitmap.ExifInterfaceImageHeaderParser
 import com.bumptech.glide.module.AppGlideModule
 import com.bumptech.glide.request.RequestOptions
-import deckers.thibault.aves.utils.LogUtils
-import deckers.thibault.aves.utils.MimeTypes
-import deckers.thibault.aves.utils.MimeTypes.isVideo
-import deckers.thibault.aves.utils.StorageUtils
+import com.galleryze.app.utils.LogUtils
+import com.galleryze.app.utils.MimeTypes
+import com.galleryze.app.utils.MimeTypes.isVideo
+import com.galleryze.app.utils.StorageUtils
 
 @GlideModule
 class AvesAppGlideModule : AppGlideModule() {

@@ -1,4 +1,4 @@
-package deckers.thibault.aves.utils
+package com.galleryze.app.utils
 
 import android.content.ContentResolver
 import android.content.ContentUris
@@ -7,7 +7,7 @@ import android.database.Cursor
 import android.net.Uri
 import android.provider.MediaStore
 import android.util.Log
-import deckers.thibault.aves.utils.UriUtils.tryParseId
+import com.galleryze.app.utils.UriUtils.tryParseId
 
 object ContextUtils {
     private val LOG_TAG = LogUtils.createTag<ContextUtils>()

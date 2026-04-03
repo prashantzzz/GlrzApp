@@ -1,4 +1,4 @@
-package deckers.thibault.aves.utils
+package com.galleryze.app.utils
 
 import android.graphics.Bitmap
 import java.io.OutputStream

@@ -1,13 +1,13 @@
-package deckers.thibault.aves.decoding
+package com.galleryze.app.decoding
 
 import android.content.Context
 import android.graphics.Bitmap
 import android.graphics.Rect
 import android.net.Uri
-import deckers.thibault.aves.channel.streams.darttoplatform.ByteSink
-import deckers.thibault.aves.glide.TiffFetcher
-import deckers.thibault.aves.utils.BitmapUtils
-import deckers.thibault.aves.utils.MimeTypes
+import com.galleryze.app.channel.streams.darttoplatform.ByteSink
+import com.galleryze.app.glide.TiffFetcher
+import com.galleryze.app.utils.BitmapUtils
+import com.galleryze.app.utils.MimeTypes
 import org.beyka.tiffbitmapfactory.DecodeArea
 import org.beyka.tiffbitmapfactory.TiffBitmapFactory
 import java.io.ByteArrayInputStream

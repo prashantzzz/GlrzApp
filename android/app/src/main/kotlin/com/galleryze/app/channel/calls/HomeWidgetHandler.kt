@@ -1,8 +1,8 @@
-package deckers.thibault.aves.channel.calls
+package com.galleryze.app.channel.calls
 
 import android.appwidget.AppWidgetManager
 import android.content.Context
-import deckers.thibault.aves.HomeWidgetProvider
+import com.galleryze.app.HomeWidgetProvider
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel
 

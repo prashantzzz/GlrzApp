@@ -1,6 +1,6 @@
 ## Terms of Service
 
-“Aves Gallery” is an open-source gallery and metadata explorer app allowing you to access and manage your local photos and videos.
+“Galleryze” is an open-source gallery and metadata explorer app allowing you to access and manage your local photos and videos.
 
 The app is designed for legal, authorized and acceptable purposes.
 

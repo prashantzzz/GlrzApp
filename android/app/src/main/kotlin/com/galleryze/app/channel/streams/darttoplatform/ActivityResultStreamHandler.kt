@@ -1,4 +1,4 @@
-package deckers.thibault.aves.channel.streams.darttoplatform
+package com.galleryze.app.channel.streams.darttoplatform
 
 import android.app.Activity
 import android.content.Intent
@@ -6,15 +6,15 @@ import android.net.Uri
 import android.os.Build
 import android.util.Log
 import androidx.core.net.toUri
-import deckers.thibault.aves.MainActivity
-import deckers.thibault.aves.PendingStorageAccessResultHandler
-import deckers.thibault.aves.channel.calls.AppAdapterHandler
-import deckers.thibault.aves.channel.streams.BaseStreamHandler
-import deckers.thibault.aves.utils.LogUtils
-import deckers.thibault.aves.utils.MimeTypes
-import deckers.thibault.aves.utils.PermissionManager
-import deckers.thibault.aves.utils.StorageUtils
-import deckers.thibault.aves.utils.StorageUtils.ensureTrailingSeparator
+import com.galleryze.app.MainActivity
+import com.galleryze.app.PendingStorageAccessResultHandler
+import com.galleryze.app.channel.calls.AppAdapterHandler
+import com.galleryze.app.channel.streams.BaseStreamHandler
+import com.galleryze.app.utils.LogUtils
+import com.galleryze.app.utils.MimeTypes
+import com.galleryze.app.utils.PermissionManager
+import com.galleryze.app.utils.StorageUtils
+import com.galleryze.app.utils.StorageUtils.ensureTrailingSeparator
 import kotlinx.coroutines.launch
 
 // starting activity to get a result (e.g. storage access via native dialog)

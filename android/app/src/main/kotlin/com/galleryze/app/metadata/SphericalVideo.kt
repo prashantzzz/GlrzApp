@@ -1,8 +1,8 @@
-package deckers.thibault.aves.metadata
+package com.galleryze.app.metadata
 
 import android.util.Log
 import android.util.Xml
-import deckers.thibault.aves.utils.LogUtils
+import com.galleryze.app.utils.LogUtils
 import org.xmlpull.v1.XmlPullParser
 import java.io.ByteArrayInputStream
 

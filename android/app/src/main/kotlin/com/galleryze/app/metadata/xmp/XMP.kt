@@ -1,4 +1,4 @@
-package deckers.thibault.aves.metadata.xmp
+package com.galleryze.app.metadata.xmp
 
 import android.content.Context
 import android.net.Uri
@@ -11,17 +11,17 @@ import com.adobe.internal.xmp.XMPMeta
 import com.adobe.internal.xmp.XMPMetaFactory
 import com.adobe.internal.xmp.properties.XMPProperty
 import com.drew.metadata.Directory
-import deckers.thibault.aves.metadata.Mp4ParserHelper
-import deckers.thibault.aves.metadata.Mp4ParserHelper.processBoxes
-import deckers.thibault.aves.metadata.Mp4ParserHelper.toBytes
-import deckers.thibault.aves.metadata.metadataextractor.SafeMp4UuidBoxHandler
-import deckers.thibault.aves.metadata.metadataextractor.SafeXmpReader
-import deckers.thibault.aves.utils.ContextUtils.queryContentPropValue
-import deckers.thibault.aves.utils.LogUtils
-import deckers.thibault.aves.utils.MemoryUtils
-import deckers.thibault.aves.utils.MimeTypes
-import deckers.thibault.aves.utils.MimeTypes.isIsoBMFFImage
-import deckers.thibault.aves.utils.StorageUtils
+import com.galleryze.app.metadata.Mp4ParserHelper
+import com.galleryze.app.metadata.Mp4ParserHelper.processBoxes
+import com.galleryze.app.metadata.Mp4ParserHelper.toBytes
+import com.galleryze.app.metadata.metadataextractor.SafeMp4UuidBoxHandler
+import com.galleryze.app.metadata.metadataextractor.SafeXmpReader
+import com.galleryze.app.utils.ContextUtils.queryContentPropValue
+import com.galleryze.app.utils.LogUtils
+import com.galleryze.app.utils.MemoryUtils
+import com.galleryze.app.utils.MimeTypes
+import com.galleryze.app.utils.MimeTypes.isIsoBMFFImage
+import com.galleryze.app.utils.StorageUtils
 import org.mp4parser.boxes.UserBox
 import java.util.TimeZone
 

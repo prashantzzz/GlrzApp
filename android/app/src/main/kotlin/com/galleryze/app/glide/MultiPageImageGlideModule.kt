@@ -1,4 +1,4 @@
-package deckers.thibault.aves.glide
+package com.galleryze.app.glide
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -17,10 +17,10 @@ import com.bumptech.glide.load.model.ModelLoaderFactory
 import com.bumptech.glide.load.model.MultiModelLoaderFactory
 import com.bumptech.glide.module.LibraryGlideModule
 import com.bumptech.glide.signature.ObjectKey
-import deckers.thibault.aves.metadata.MultiPage
-import deckers.thibault.aves.metadata.MultiTrackMedia
-import deckers.thibault.aves.utils.MimeTypes
-import deckers.thibault.aves.utils.MimeTypes.isIsoBMFFImage
+import com.galleryze.app.metadata.MultiPage
+import com.galleryze.app.metadata.MultiTrackMedia
+import com.galleryze.app.utils.MimeTypes
+import com.galleryze.app.utils.MimeTypes.isIsoBMFFImage
 
 @GlideModule
 class MultiPageImageGlideModule : LibraryGlideModule() {

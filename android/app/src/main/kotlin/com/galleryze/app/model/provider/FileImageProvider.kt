@@ -1,4 +1,4 @@
-package deckers.thibault.aves.model.provider
+package com.galleryze.app.model.provider
 
 import android.app.Activity
 import android.content.Context
@@ -6,10 +6,10 @@ import android.content.ContextWrapper
 import android.net.Uri
 import android.util.Log
 import android.webkit.MimeTypeMap
-import deckers.thibault.aves.model.EntryFields
-import deckers.thibault.aves.model.FieldMap
-import deckers.thibault.aves.model.SourceEntry
-import deckers.thibault.aves.utils.LogUtils
+import com.galleryze.app.model.EntryFields
+import com.galleryze.app.model.FieldMap
+import com.galleryze.app.model.SourceEntry
+import com.galleryze.app.utils.LogUtils
 import java.io.File
 
 internal class FileImageProvider : ImageProvider() {

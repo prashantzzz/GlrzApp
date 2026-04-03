@@ -1,4 +1,4 @@
-package deckers.thibault.aves
+package com.galleryze.app
 
 import android.app.SearchManager
 import android.content.ContentProvider
@@ -10,10 +10,10 @@ import android.net.Uri
 import android.os.Build
 import android.text.format.DateFormat
 import android.util.Log
-import deckers.thibault.aves.model.FieldMap
-import deckers.thibault.aves.utils.ContextUtils.resourceUri
-import deckers.thibault.aves.utils.FlutterUtils
-import deckers.thibault.aves.utils.LogUtils
+import com.galleryze.app.model.FieldMap
+import com.galleryze.app.utils.ContextUtils.resourceUri
+import com.galleryze.app.utils.FlutterUtils
+import com.galleryze.app.utils.LogUtils
 import io.flutter.embedding.engine.FlutterEngine
 import io.flutter.plugin.common.MethodChannel
 import kotlinx.coroutines.CoroutineScope

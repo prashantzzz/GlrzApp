@@ -1,15 +1,15 @@
-package deckers.thibault.aves.metadata
+package com.galleryze.app.metadata
 
 import android.content.Context
 import android.net.Uri
 import android.util.Log
-import deckers.thibault.aves.metadata.xmp.XMP
-import deckers.thibault.aves.utils.FileDescriptorException
-import deckers.thibault.aves.utils.LogUtils
-import deckers.thibault.aves.utils.MimeTypes
-import deckers.thibault.aves.utils.StorageUtils
-import deckers.thibault.aves.utils.toByteArray
-import deckers.thibault.aves.utils.toHex
+import com.galleryze.app.metadata.xmp.XMP
+import com.galleryze.app.utils.FileDescriptorException
+import com.galleryze.app.utils.LogUtils
+import com.galleryze.app.utils.MimeTypes
+import com.galleryze.app.utils.StorageUtils
+import com.galleryze.app.utils.toByteArray
+import com.galleryze.app.utils.toHex
 import org.mp4parser.BasicContainer
 import org.mp4parser.Box
 import org.mp4parser.BoxParser

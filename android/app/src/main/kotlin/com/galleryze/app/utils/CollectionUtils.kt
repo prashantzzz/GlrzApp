@@ -1,4 +1,4 @@
-package deckers.thibault.aves.utils
+package com.galleryze.app.utils
 
 // Boyer-Moore algorithm for pattern searching
 // Returns: an index of the first occurrence of the pattern or -1 if none is found.

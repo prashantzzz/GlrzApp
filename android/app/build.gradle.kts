@@ -43,6 +43,8 @@ android {
     ndkVersion = flutter.ndkVersion
 
     compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
         // enable support for the new language APIs on older devices
         // e.g. `java/util/function/Supplier` on Android 5.0 (API 21)
         isCoreLibraryDesugaringEnabled = true
@@ -100,7 +102,8 @@ android {
             if (signingConfigs.names.contains("release")) {
                 signingConfig = signingConfigs.getByName("release")
             } else {
-                println("Skip release signing as it is not configured")
+                println("Fallback to debug signing as release is not configured")
+                signingConfig = signingConfigs.getByName("debug")
             }
             isMinifyEnabled = true
             isShrinkResources = true
@@ -213,10 +216,4 @@ dependencies {
     compileOnly(rootProject.findProject(":streams_channel")!!)
 }
 
-if (rootProject.extra["aves_useCrashlytics"] as Boolean) {
-    println("Building flavor with Crashlytics plugin")
-    apply(plugin = "com.google.gms.google-services")
-    apply(plugin = "com.google.firebase.crashlytics")
-} else {
-    println("Building flavor without reporting plugin")
-}
+

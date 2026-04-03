@@ -1,12 +1,12 @@
-package deckers.thibault.aves.channel.calls
+package com.galleryze.app.channel.calls
 
 import android.content.Context
 import android.media.MediaScannerConnection
 import android.net.Uri
 import android.os.Build
 import android.provider.MediaStore
-import deckers.thibault.aves.channel.calls.Coresult.Companion.safe
-import deckers.thibault.aves.model.provider.MediaStoreImageProvider
+import com.galleryze.app.channel.calls.Coresult.Companion.safe
+import com.galleryze.app.model.provider.MediaStoreImageProvider
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler

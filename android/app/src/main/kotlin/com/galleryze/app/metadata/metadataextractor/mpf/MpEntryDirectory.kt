@@ -1,4 +1,4 @@
-package deckers.thibault.aves.metadata.metadataextractor.mpf
+package com.galleryze.app.metadata.metadataextractor.mpf
 
 import com.drew.metadata.Directory
 import com.drew.metadata.TagDescriptor

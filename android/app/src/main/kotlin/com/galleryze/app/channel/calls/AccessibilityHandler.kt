@@ -1,4 +1,4 @@
-package deckers.thibault.aves.channel.calls
+package com.galleryze.app.channel.calls
 
 import android.content.Context
 import android.content.ContextWrapper
@@ -8,8 +8,8 @@ import android.provider.Settings
 import android.util.Log
 import android.view.ViewConfiguration
 import android.view.accessibility.AccessibilityManager
-import deckers.thibault.aves.channel.calls.Coresult.Companion.safe
-import deckers.thibault.aves.utils.LogUtils
+import com.galleryze.app.channel.calls.Coresult.Companion.safe
+import com.galleryze.app.utils.LogUtils
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler

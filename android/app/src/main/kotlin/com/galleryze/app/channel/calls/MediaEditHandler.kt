@@ -1,16 +1,16 @@
-package deckers.thibault.aves.channel.calls
+package com.galleryze.app.channel.calls
 
 import android.content.ContextWrapper
 import android.util.Log
 import androidx.core.net.toUri
-import deckers.thibault.aves.channel.calls.Coresult.Companion.safe
-import deckers.thibault.aves.channel.calls.Coresult.Companion.safeSuspend
-import deckers.thibault.aves.model.FieldMap
-import deckers.thibault.aves.model.NameConflictStrategy
-import deckers.thibault.aves.model.provider.ImageProvider.ImageOpCallback
-import deckers.thibault.aves.model.provider.ImageProviderFactory.getProvider
-import deckers.thibault.aves.utils.LogUtils
-import deckers.thibault.aves.utils.StorageUtils.ensureTrailingSeparator
+import com.galleryze.app.channel.calls.Coresult.Companion.safe
+import com.galleryze.app.channel.calls.Coresult.Companion.safeSuspend
+import com.galleryze.app.model.FieldMap
+import com.galleryze.app.model.NameConflictStrategy
+import com.galleryze.app.model.provider.ImageProvider.ImageOpCallback
+import com.galleryze.app.model.provider.ImageProviderFactory.getProvider
+import com.galleryze.app.utils.LogUtils
+import com.galleryze.app.utils.StorageUtils.ensureTrailingSeparator
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler

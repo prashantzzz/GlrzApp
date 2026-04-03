@@ -1,4 +1,4 @@
-package deckers.thibault.aves.model
+package com.galleryze.app.model
 
 import android.content.ContentResolver
 import android.content.Context
@@ -12,22 +12,22 @@ import com.drew.metadata.jpeg.JpegDirectory
 import com.drew.metadata.mp4.Mp4Directory
 import com.drew.metadata.mp4.media.Mp4VideoDirectory
 import com.drew.metadata.photoshop.PsdHeaderDirectory
-import deckers.thibault.aves.glide.TiffFetcher
-import deckers.thibault.aves.metadata.ExifInterfaceHelper.getSafeDateMillis
-import deckers.thibault.aves.metadata.ExifInterfaceHelper.getSafeInt
-import deckers.thibault.aves.metadata.MediaMetadataRetrieverHelper.getSafeDateMillis
-import deckers.thibault.aves.metadata.MediaMetadataRetrieverHelper.getSafeInt
-import deckers.thibault.aves.metadata.MediaMetadataRetrieverHelper.getSafeLong
-import deckers.thibault.aves.metadata.MediaMetadataRetrieverHelper.getSafeString
-import deckers.thibault.aves.metadata.Metadata
-import deckers.thibault.aves.metadata.Metadata.getRotationDegreesForExifCode
-import deckers.thibault.aves.metadata.metadataextractor.Helper
-import deckers.thibault.aves.metadata.metadataextractor.Helper.getSafeDateMillis
-import deckers.thibault.aves.metadata.metadataextractor.Helper.getSafeInt
-import deckers.thibault.aves.metadata.metadataextractor.Helper.getSafeLong
-import deckers.thibault.aves.utils.MimeTypes
-import deckers.thibault.aves.utils.StorageUtils
-import deckers.thibault.aves.utils.UriUtils.tryParseId
+import com.galleryze.app.glide.TiffFetcher
+import com.galleryze.app.metadata.ExifInterfaceHelper.getSafeDateMillis
+import com.galleryze.app.metadata.ExifInterfaceHelper.getSafeInt
+import com.galleryze.app.metadata.MediaMetadataRetrieverHelper.getSafeDateMillis
+import com.galleryze.app.metadata.MediaMetadataRetrieverHelper.getSafeInt
+import com.galleryze.app.metadata.MediaMetadataRetrieverHelper.getSafeLong
+import com.galleryze.app.metadata.MediaMetadataRetrieverHelper.getSafeString
+import com.galleryze.app.metadata.Metadata
+import com.galleryze.app.metadata.Metadata.getRotationDegreesForExifCode
+import com.galleryze.app.metadata.metadataextractor.Helper
+import com.galleryze.app.metadata.metadataextractor.Helper.getSafeDateMillis
+import com.galleryze.app.metadata.metadataextractor.Helper.getSafeInt
+import com.galleryze.app.metadata.metadataextractor.Helper.getSafeLong
+import com.galleryze.app.utils.MimeTypes
+import com.galleryze.app.utils.StorageUtils
+import com.galleryze.app.utils.UriUtils.tryParseId
 import org.beyka.tiffbitmapfactory.TiffBitmapFactory
 import java.io.IOException
 import androidx.exifinterface.media.ExifInterfaceFork as ExifInterface

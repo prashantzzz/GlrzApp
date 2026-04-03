@@ -1,4 +1,4 @@
-package deckers.thibault.aves.metadata.metadataextractor.mpf
+package com.galleryze.app.metadata.metadataextractor.mpf
 
 import android.util.Log
 import com.drew.imaging.jpeg.JpegSegmentMetadataReader
@@ -7,7 +7,7 @@ import com.drew.lang.ByteArrayReader
 import com.drew.lang.RandomAccessReader
 import com.drew.metadata.Metadata
 import com.drew.metadata.MetadataReader
-import deckers.thibault.aves.utils.LogUtils
+import com.galleryze.app.utils.LogUtils
 
 class MpfReader : JpegSegmentMetadataReader, MetadataReader {
     override fun getSegmentTypes(): Iterable<JpegSegmentType> {

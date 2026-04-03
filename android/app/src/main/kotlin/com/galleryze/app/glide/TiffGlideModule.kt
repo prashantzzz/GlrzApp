@@ -1,4 +1,4 @@
-package deckers.thibault.aves.glide
+package com.galleryze.app.glide
 
 import android.content.Context
 import android.graphics.Bitmap

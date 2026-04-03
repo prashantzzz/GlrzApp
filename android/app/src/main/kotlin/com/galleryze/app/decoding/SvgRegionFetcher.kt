@@ -1,4 +1,4 @@
-package deckers.thibault.aves.decoding
+package com.galleryze.app.decoding
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -12,14 +12,14 @@ import com.caverock.androidsvg.RenderOptions
 import com.caverock.androidsvg.SVG
 import com.caverock.androidsvg.SVGParseException
 import com.caverock.androidsvg.utils.SVGAndroidRenderer
-import deckers.thibault.aves.channel.streams.darttoplatform.ByteSink
-import deckers.thibault.aves.metadata.SVGParserBufferedInputStream
-import deckers.thibault.aves.metadata.SvgHelper.IMAGE_BASE64_SIZE_DANGER_THRESHOLD
-import deckers.thibault.aves.metadata.SvgHelper.normalizeSize
-import deckers.thibault.aves.utils.BitmapUtils
-import deckers.thibault.aves.utils.MemoryUtils
-import deckers.thibault.aves.utils.MimeTypes
-import deckers.thibault.aves.utils.StorageUtils
+import com.galleryze.app.channel.streams.darttoplatform.ByteSink
+import com.galleryze.app.metadata.SVGParserBufferedInputStream
+import com.galleryze.app.metadata.SvgHelper.IMAGE_BASE64_SIZE_DANGER_THRESHOLD
+import com.galleryze.app.metadata.SvgHelper.normalizeSize
+import com.galleryze.app.utils.BitmapUtils
+import com.galleryze.app.utils.MemoryUtils
+import com.galleryze.app.utils.MimeTypes
+import com.galleryze.app.utils.StorageUtils
 import java.io.ByteArrayInputStream
 import java.util.concurrent.locks.ReentrantLock
 import kotlin.concurrent.withLock

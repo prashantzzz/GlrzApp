@@ -1,9 +1,9 @@
-package deckers.thibault.aves.channel.streams.darttoplatform
+package com.galleryze.app.channel.streams.darttoplatform
 
 import android.content.Context
-import deckers.thibault.aves.channel.streams.BaseStreamHandler
-import deckers.thibault.aves.model.provider.MediaStoreImageProvider
-import deckers.thibault.aves.utils.LogUtils
+import com.galleryze.app.channel.streams.BaseStreamHandler
+import com.galleryze.app.model.provider.MediaStoreImageProvider
+import com.galleryze.app.utils.LogUtils
 import kotlinx.coroutines.launch
 
 class MediaStoreStreamHandler(private val context: Context, arguments: Any?) : BaseStreamHandler() {

@@ -1,6 +1,6 @@
-package deckers.thibault.aves.channel.calls
+package com.galleryze.app.channel.calls
 
-import deckers.thibault.aves.MainActivity
+import com.galleryze.app.MainActivity
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel
 import kotlinx.coroutines.CoroutineScope

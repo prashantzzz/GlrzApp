@@ -1,4 +1,4 @@
-package deckers.thibault.aves.channel.calls
+package com.galleryze.app.channel.calls
 
 import android.app.ActivityManager
 import android.content.Context
@@ -10,8 +10,8 @@ import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.WorkInfo
 import androidx.work.WorkManager
 import androidx.work.workDataOf
-import deckers.thibault.aves.AnalysisWorker
-import deckers.thibault.aves.utils.FlutterUtils
+import com.galleryze.app.AnalysisWorker
+import com.galleryze.app.utils.FlutterUtils
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel
 import kotlinx.coroutines.CoroutineScope

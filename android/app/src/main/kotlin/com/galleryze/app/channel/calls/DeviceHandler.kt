@@ -1,4 +1,4 @@
-package deckers.thibault.aves.channel.calls
+package com.galleryze.app.channel.calls
 
 import android.annotation.SuppressLint
 import android.app.LocaleConfig
@@ -16,9 +16,9 @@ import androidx.core.content.pm.ShortcutManagerCompat
 import androidx.core.net.toUri
 import androidx.core.text.util.LocalePreferences
 import com.google.android.material.color.DynamicColors
-import deckers.thibault.aves.channel.calls.Coresult.Companion.safe
-import deckers.thibault.aves.model.FieldMap
-import deckers.thibault.aves.utils.MemoryUtils
+import com.galleryze.app.channel.calls.Coresult.Companion.safe
+import com.galleryze.app.model.FieldMap
+import com.galleryze.app.utils.MemoryUtils
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler

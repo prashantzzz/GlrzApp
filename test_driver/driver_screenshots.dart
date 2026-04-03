@@ -1,4 +1,4 @@
-import 'package:aves/main_play.dart' as app;
+import 'package:aves/main.dart' as app;
 import 'package:aves/model/filters/favourite.dart';
 import 'package:aves/model/settings/defaults.dart';
 import 'package:aves/model/settings/settings.dart';

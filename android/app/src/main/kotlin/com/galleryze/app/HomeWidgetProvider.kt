@@ -1,4 +1,4 @@
-package deckers.thibault.aves
+package com.galleryze.app
 
 import android.app.PendingIntent
 import android.appwidget.AppWidgetManager
@@ -17,16 +17,16 @@ import android.widget.RemoteViews
 import androidx.core.graphics.createBitmap
 import androidx.core.net.toUri
 import app.loup.streams_channel.StreamsChannel
-import deckers.thibault.aves.channel.calls.DeviceHandler
-import deckers.thibault.aves.channel.calls.MediaFetchObjectHandler
-import deckers.thibault.aves.channel.calls.MediaStoreHandler
-import deckers.thibault.aves.channel.calls.StorageHandler
-import deckers.thibault.aves.channel.streams.darttoplatform.ImageByteStreamHandler
-import deckers.thibault.aves.channel.streams.darttoplatform.MediaStoreStreamHandler
-import deckers.thibault.aves.model.FieldMap
-import deckers.thibault.aves.utils.ContextUtils.devicePixelRatio
-import deckers.thibault.aves.utils.FlutterUtils
-import deckers.thibault.aves.utils.LogUtils
+import com.galleryze.app.channel.calls.DeviceHandler
+import com.galleryze.app.channel.calls.MediaFetchObjectHandler
+import com.galleryze.app.channel.calls.MediaStoreHandler
+import com.galleryze.app.channel.calls.StorageHandler
+import com.galleryze.app.channel.streams.darttoplatform.ImageByteStreamHandler
+import com.galleryze.app.channel.streams.darttoplatform.MediaStoreStreamHandler
+import com.galleryze.app.model.FieldMap
+import com.galleryze.app.utils.ContextUtils.devicePixelRatio
+import com.galleryze.app.utils.FlutterUtils
+import com.galleryze.app.utils.LogUtils
 import io.flutter.FlutterInjector
 import io.flutter.embedding.engine.FlutterEngine
 import io.flutter.embedding.engine.dart.DartExecutor

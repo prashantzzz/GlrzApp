@@ -1,9 +1,9 @@
-package deckers.thibault.aves.model.provider
+package com.galleryze.app.model.provider
 
 import android.content.ContentResolver
 import android.content.Context
 import android.net.Uri
-import deckers.thibault.aves.utils.StorageUtils
+import com.galleryze.app.utils.StorageUtils
 import java.util.Locale
 
 object ImageProviderFactory {

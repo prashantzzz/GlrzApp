@@ -1,7 +1,7 @@
-package deckers.thibault.aves
+package com.galleryze.app
 
 import android.content.Intent
-import deckers.thibault.aves.model.FieldMap
+import com.galleryze.app.model.FieldMap
 
 class ScreenSaverSettingsActivity : MainActivity() {
     override fun extractIntentData(intent: Intent?): FieldMap {

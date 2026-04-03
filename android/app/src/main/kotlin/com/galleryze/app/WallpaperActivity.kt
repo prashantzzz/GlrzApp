@@ -1,11 +1,11 @@
-package deckers.thibault.aves
+package com.galleryze.app
 
 import android.content.Intent
 import android.net.Uri
 import androidx.core.net.toUri
-import deckers.thibault.aves.channel.calls.AppAdapterHandler
-import deckers.thibault.aves.model.FieldMap
-import deckers.thibault.aves.utils.getParcelableExtraCompat
+import com.galleryze.app.channel.calls.AppAdapterHandler
+import com.galleryze.app.model.FieldMap
+import com.galleryze.app.utils.getParcelableExtraCompat
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel
 

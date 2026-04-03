@@ -1,4 +1,4 @@
-package deckers.thibault.aves.channel.streams.platformtodart
+package com.galleryze.app.channel.streams.platformtodart
 
 import android.content.Context
 import android.database.ContentObserver
@@ -6,8 +6,8 @@ import android.net.Uri
 import android.provider.Settings
 import android.util.Log
 import android.view.ViewConfiguration
-import deckers.thibault.aves.channel.streams.BaseStreamHandler
-import deckers.thibault.aves.utils.LogUtils
+import com.galleryze.app.channel.streams.BaseStreamHandler
+import com.galleryze.app.utils.LogUtils
 
 class SettingsChangeStreamHandler(private val context: Context) : BaseStreamHandler() {
     private val contentObserver = object : ContentObserver(null) {

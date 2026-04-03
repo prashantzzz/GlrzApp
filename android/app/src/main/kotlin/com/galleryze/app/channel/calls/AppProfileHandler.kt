@@ -1,10 +1,10 @@
-package deckers.thibault.aves.channel.calls
+package com.galleryze.app.channel.calls
 
 import android.app.Activity
 import android.content.Context
 import android.content.pm.CrossProfileApps
 import android.os.Build
-import deckers.thibault.aves.channel.calls.Coresult.Companion.safe
+import com.galleryze.app.channel.calls.Coresult.Companion.safe
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler

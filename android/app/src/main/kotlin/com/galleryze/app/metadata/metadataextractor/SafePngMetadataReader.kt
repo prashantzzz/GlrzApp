@@ -1,4 +1,4 @@
-package deckers.thibault.aves.metadata.metadataextractor
+package com.galleryze.app.metadata.metadataextractor
 
 import android.util.Log
 import com.drew.imaging.png.PngChromaticities
@@ -27,7 +27,7 @@ import com.drew.metadata.icc.IccReader
 import com.drew.metadata.png.PngChromaticitiesDirectory
 import com.drew.metadata.png.PngDirectory
 import com.drew.metadata.xmp.XmpReader
-import deckers.thibault.aves.utils.LogUtils
+import com.galleryze.app.utils.LogUtils
 import java.io.ByteArrayInputStream
 import java.io.IOException
 import java.io.InputStream

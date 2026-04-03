@@ -1,4 +1,4 @@
-package deckers.thibault.aves.model
+package com.galleryze.app.model
 
 // entry fields exported and imported from/to the platform side
 // should match `EntryFields` on Dart side

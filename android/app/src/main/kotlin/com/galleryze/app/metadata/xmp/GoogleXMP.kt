@@ -1,19 +1,19 @@
-package deckers.thibault.aves.metadata.xmp
+package com.galleryze.app.metadata.xmp
 
 import android.util.Log
 import com.adobe.internal.xmp.XMPError
 import com.adobe.internal.xmp.XMPException
 import com.adobe.internal.xmp.XMPMeta
-import deckers.thibault.aves.metadata.xmp.XMP.countPropArrayItems
-import deckers.thibault.aves.metadata.xmp.XMP.doesPropExist
-import deckers.thibault.aves.metadata.xmp.XMP.doesPropPathExist
-import deckers.thibault.aves.metadata.xmp.XMP.getSafeInt
-import deckers.thibault.aves.metadata.xmp.XMP.getSafeLong
-import deckers.thibault.aves.metadata.xmp.XMP.getSafeString
-import deckers.thibault.aves.metadata.xmp.XMP.getSafeStructField
-import deckers.thibault.aves.model.FieldMap
-import deckers.thibault.aves.utils.LogUtils
-import deckers.thibault.aves.utils.MimeTypes
+import com.galleryze.app.metadata.xmp.XMP.countPropArrayItems
+import com.galleryze.app.metadata.xmp.XMP.doesPropExist
+import com.galleryze.app.metadata.xmp.XMP.doesPropPathExist
+import com.galleryze.app.metadata.xmp.XMP.getSafeInt
+import com.galleryze.app.metadata.xmp.XMP.getSafeLong
+import com.galleryze.app.metadata.xmp.XMP.getSafeString
+import com.galleryze.app.metadata.xmp.XMP.getSafeStructField
+import com.galleryze.app.model.FieldMap
+import com.galleryze.app.utils.LogUtils
+import com.galleryze.app.utils.MimeTypes
 
 object GoogleXMP {
     private val LOG_TAG = LogUtils.createTag<GoogleXMP>()

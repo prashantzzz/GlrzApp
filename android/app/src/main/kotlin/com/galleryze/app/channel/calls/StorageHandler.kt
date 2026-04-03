@@ -1,14 +1,14 @@
-package deckers.thibault.aves.channel.calls
+package com.galleryze.app.channel.calls
 
 import android.content.Context
 import android.os.Build
 import android.os.storage.StorageManager
-import deckers.thibault.aves.channel.calls.Coresult.Companion.safe
-import deckers.thibault.aves.model.FieldMap
-import deckers.thibault.aves.utils.PermissionManager
-import deckers.thibault.aves.utils.StorageUtils
-import deckers.thibault.aves.utils.StorageUtils.getFolderSize
-import deckers.thibault.aves.utils.StorageUtils.getVolumePaths
+import com.galleryze.app.channel.calls.Coresult.Companion.safe
+import com.galleryze.app.model.FieldMap
+import com.galleryze.app.utils.PermissionManager
+import com.galleryze.app.utils.StorageUtils
+import com.galleryze.app.utils.StorageUtils.getFolderSize
+import com.galleryze.app.utils.StorageUtils.getVolumePaths
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler

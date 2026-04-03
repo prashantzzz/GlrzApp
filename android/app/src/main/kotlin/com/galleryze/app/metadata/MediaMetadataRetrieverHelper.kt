@@ -1,4 +1,4 @@
-package deckers.thibault.aves.metadata
+package com.galleryze.app.metadata
 
 import android.media.MediaFormat
 import android.media.MediaMetadataRetriever

@@ -23,43 +23,43 @@ import androidx.core.content.pm.ShortcutManagerCompat
 import androidx.core.graphics.drawable.IconCompat
 import androidx.core.net.toUri
 import app.loup.streams_channel.StreamsChannel
-import deckers.thibault.aves.channel.calls.AccessibilityHandler
-import deckers.thibault.aves.channel.calls.AnalysisHandler
-import deckers.thibault.aves.channel.calls.AppAdapterHandler
-import deckers.thibault.aves.channel.calls.AppProfileHandler
-import deckers.thibault.aves.channel.calls.Coresult.Companion.safe
-import deckers.thibault.aves.channel.calls.DebugHandler
-import deckers.thibault.aves.channel.calls.DeviceHandler
-import deckers.thibault.aves.channel.calls.EmbeddedDataHandler
-import deckers.thibault.aves.channel.calls.GeocodingHandler
-import deckers.thibault.aves.channel.calls.GlobalSearchHandler
-import deckers.thibault.aves.channel.calls.HomeWidgetHandler
-import deckers.thibault.aves.channel.calls.MediaEditHandler
-import deckers.thibault.aves.channel.calls.MediaFetchObjectHandler
-import deckers.thibault.aves.channel.calls.MediaSessionHandler
-import deckers.thibault.aves.channel.calls.MediaStoreHandler
-import deckers.thibault.aves.channel.calls.MetadataEditHandler
-import deckers.thibault.aves.channel.calls.MetadataFetchHandler
-import deckers.thibault.aves.channel.calls.SecurityHandler
-import deckers.thibault.aves.channel.calls.StorageHandler
-import deckers.thibault.aves.channel.calls.WallpaperHandler
-import deckers.thibault.aves.channel.calls.window.ActivityWindowHandler
-import deckers.thibault.aves.channel.calls.window.WindowHandler
-import deckers.thibault.aves.channel.streams.darttoplatform.ActivityResultStreamHandler
-import deckers.thibault.aves.channel.streams.darttoplatform.ImageByteStreamHandler
-import deckers.thibault.aves.channel.streams.darttoplatform.ImageOpStreamHandler
-import deckers.thibault.aves.channel.streams.darttoplatform.MediaStoreStreamHandler
-import deckers.thibault.aves.channel.streams.platformtodart.AnalysisStreamHandler
-import deckers.thibault.aves.channel.streams.platformtodart.ErrorStreamHandler
-import deckers.thibault.aves.channel.streams.platformtodart.IntentStreamHandler
-import deckers.thibault.aves.channel.streams.platformtodart.MediaCommandStreamHandler
-import deckers.thibault.aves.channel.streams.platformtodart.MediaStoreChangeStreamHandler
-import deckers.thibault.aves.channel.streams.platformtodart.SettingsChangeStreamHandler
-import deckers.thibault.aves.channel.streams.platformtodart.WindowChangeStreamHandler
-import deckers.thibault.aves.model.FieldMap
-import deckers.thibault.aves.utils.LogUtils
-import deckers.thibault.aves.utils.anyCauseIs
-import deckers.thibault.aves.utils.getParcelableExtraCompat
+import com.galleryze.app.channel.calls.AccessibilityHandler
+import com.galleryze.app.channel.calls.AnalysisHandler
+import com.galleryze.app.channel.calls.AppAdapterHandler
+import com.galleryze.app.channel.calls.AppProfileHandler
+import com.galleryze.app.channel.calls.Coresult.Companion.safe
+import com.galleryze.app.channel.calls.DebugHandler
+import com.galleryze.app.channel.calls.DeviceHandler
+import com.galleryze.app.channel.calls.EmbeddedDataHandler
+import com.galleryze.app.channel.calls.GeocodingHandler
+import com.galleryze.app.channel.calls.GlobalSearchHandler
+import com.galleryze.app.channel.calls.HomeWidgetHandler
+import com.galleryze.app.channel.calls.MediaEditHandler
+import com.galleryze.app.channel.calls.MediaFetchObjectHandler
+import com.galleryze.app.channel.calls.MediaSessionHandler
+import com.galleryze.app.channel.calls.MediaStoreHandler
+import com.galleryze.app.channel.calls.MetadataEditHandler
+import com.galleryze.app.channel.calls.MetadataFetchHandler
+import com.galleryze.app.channel.calls.SecurityHandler
+import com.galleryze.app.channel.calls.StorageHandler
+import com.galleryze.app.channel.calls.WallpaperHandler
+import com.galleryze.app.channel.calls.window.ActivityWindowHandler
+import com.galleryze.app.channel.calls.window.WindowHandler
+import com.galleryze.app.channel.streams.darttoplatform.ActivityResultStreamHandler
+import com.galleryze.app.channel.streams.darttoplatform.ImageByteStreamHandler
+import com.galleryze.app.channel.streams.darttoplatform.ImageOpStreamHandler
+import com.galleryze.app.channel.streams.darttoplatform.MediaStoreStreamHandler
+import com.galleryze.app.channel.streams.platformtodart.AnalysisStreamHandler
+import com.galleryze.app.channel.streams.platformtodart.ErrorStreamHandler
+import com.galleryze.app.channel.streams.platformtodart.IntentStreamHandler
+import com.galleryze.app.channel.streams.platformtodart.MediaCommandStreamHandler
+import com.galleryze.app.channel.streams.platformtodart.MediaStoreChangeStreamHandler
+import com.galleryze.app.channel.streams.platformtodart.SettingsChangeStreamHandler
+import com.galleryze.app.channel.streams.platformtodart.WindowChangeStreamHandler
+import com.galleryze.app.model.FieldMap
+import com.galleryze.app.utils.LogUtils
+import com.galleryze.app.utils.anyCauseIs
+import com.galleryze.app.utils.getParcelableExtraCompat
 import io.flutter.embedding.android.FlutterFragmentActivity
 import io.flutter.embedding.engine.FlutterEngine
 import io.flutter.plugin.common.EventChannel
@@ -227,7 +227,7 @@ open class MainActivity : FlutterFragmentActivity() {
         } catch (e: Exception) {
             // on Android 11, app may crash as follows:
             // `Fatal Exception:`
-            // `java.lang.RuntimeException: Unable to destroy activity {deckers.thibault.aves/deckers.thibault.aves.MainActivity}:`
+            // `java.lang.RuntimeException: Unable to destroy activity {com.galleryze.app/com.galleryze.app.MainActivity}:`
             // `java.lang.IllegalArgumentException: NetworkCallback was not registered`
             // related to this error:
             // `Package android does not belong to 10162`

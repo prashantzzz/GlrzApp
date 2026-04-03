@@ -1,7 +1,7 @@
-package deckers.thibault.aves.utils
+package com.galleryze.app.utils
 
 import android.webkit.MimeTypeMap
-import deckers.thibault.aves.glide.MultiPageImage
+import com.galleryze.app.glide.MultiPageImage
 import androidx.exifinterface.media.ExifInterfaceFork as ExifInterface
 
 object MimeTypes {

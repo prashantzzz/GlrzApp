@@ -1,12 +1,12 @@
-package deckers.thibault.aves.metadata
+package com.galleryze.app.metadata
 
 import android.content.Context
 import android.net.Uri
 import android.util.Log
-import deckers.thibault.aves.utils.FileUtils.transferFrom
-import deckers.thibault.aves.utils.LogUtils
-import deckers.thibault.aves.utils.MimeTypes
-import deckers.thibault.aves.utils.StorageUtils
+import com.galleryze.app.utils.FileUtils.transferFrom
+import com.galleryze.app.utils.LogUtils
+import com.galleryze.app.utils.MimeTypes
+import com.galleryze.app.utils.StorageUtils
 import java.io.File
 import java.io.InputStream
 import java.text.ParseException

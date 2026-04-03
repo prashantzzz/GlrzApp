@@ -1,12 +1,12 @@
-package deckers.thibault.aves.metadata.xmp
+package com.galleryze.app.metadata.xmp
 
 import android.content.Context
 import android.net.Uri
 import com.adobe.internal.xmp.XMPMeta
-import deckers.thibault.aves.metadata.Metadata
-import deckers.thibault.aves.metadata.xmp.XMP.countPropPathArrayItems
-import deckers.thibault.aves.metadata.xmp.XMP.getSafeStructField
-import deckers.thibault.aves.utils.indexOfBytes
+import com.galleryze.app.metadata.Metadata
+import com.galleryze.app.metadata.xmp.XMP.countPropPathArrayItems
+import com.galleryze.app.metadata.xmp.XMP.getSafeStructField
+import com.galleryze.app.utils.indexOfBytes
 import java.io.DataInputStream
 
 class GoogleDeviceContainer {

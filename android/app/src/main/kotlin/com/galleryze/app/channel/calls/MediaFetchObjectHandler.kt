@@ -1,14 +1,14 @@
-package deckers.thibault.aves.channel.calls
+package com.galleryze.app.channel.calls
 
 import android.content.Context
 import android.os.Handler
 import android.os.Looper
 import androidx.core.net.toUri
 import com.bumptech.glide.Glide
-import deckers.thibault.aves.channel.calls.Coresult.Companion.safe
-import deckers.thibault.aves.model.FieldMap
-import deckers.thibault.aves.model.provider.ImageProvider.ImageOpCallback
-import deckers.thibault.aves.model.provider.ImageProviderFactory.getProvider
+import com.galleryze.app.channel.calls.Coresult.Companion.safe
+import com.galleryze.app.model.FieldMap
+import com.galleryze.app.model.provider.ImageProvider.ImageOpCallback
+import com.galleryze.app.model.provider.ImageProviderFactory.getProvider
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler

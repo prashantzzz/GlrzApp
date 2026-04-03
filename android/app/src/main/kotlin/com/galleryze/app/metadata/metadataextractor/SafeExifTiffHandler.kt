@@ -1,4 +1,4 @@
-package deckers.thibault.aves.metadata.metadataextractor
+package com.galleryze.app.metadata.metadataextractor
 
 import com.drew.lang.RandomAccessReader
 import com.drew.metadata.Directory

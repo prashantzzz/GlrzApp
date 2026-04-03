@@ -1,9 +1,9 @@
-package deckers.thibault.aves.channel.calls
+package com.galleryze.app.channel.calls
 
 import android.content.Context
 import androidx.core.content.edit
-import deckers.thibault.aves.SearchSuggestionsProvider
-import deckers.thibault.aves.channel.calls.Coresult.Companion.safe
+import com.galleryze.app.SearchSuggestionsProvider
+import com.galleryze.app.channel.calls.Coresult.Companion.safe
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler

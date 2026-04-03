@@ -1,4 +1,4 @@
-package deckers.thibault.aves.model
+package com.galleryze.app.model
 
 import android.net.Uri
 import androidx.core.net.toUri

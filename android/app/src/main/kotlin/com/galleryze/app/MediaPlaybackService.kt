@@ -1,4 +1,4 @@
-package deckers.thibault.aves
+package com.galleryze.app
 
 import android.os.Bundle
 import android.support.v4.media.MediaBrowserCompat

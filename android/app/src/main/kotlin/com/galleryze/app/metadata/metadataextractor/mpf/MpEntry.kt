@@ -1,6 +1,6 @@
-package deckers.thibault.aves.metadata.metadataextractor.mpf
+package com.galleryze.app.metadata.metadataextractor.mpf
 
-import deckers.thibault.aves.utils.MimeTypes
+import com.galleryze.app.utils.MimeTypes
 
 class MpEntry(val flags: Int, val format: Int, val type: Int, val size: Long, val dataOffset: Long, val dep1: Short, val dep2: Short) {
     val mimeType: String?

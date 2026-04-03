@@ -1,4 +1,4 @@
-package deckers.thibault.aves.utils
+package com.galleryze.app.utils
 
 import android.app.Activity
 import android.content.Context
@@ -12,10 +12,10 @@ import android.provider.DocumentsContract
 import android.provider.MediaStore
 import android.util.Log
 import androidx.annotation.RequiresApi
-import deckers.thibault.aves.MainActivity
-import deckers.thibault.aves.PendingStorageAccessResultHandler
-import deckers.thibault.aves.model.FieldMap
-import deckers.thibault.aves.utils.StorageUtils.PathSegments
+import com.galleryze.app.MainActivity
+import com.galleryze.app.PendingStorageAccessResultHandler
+import com.galleryze.app.model.FieldMap
+import com.galleryze.app.utils.StorageUtils.PathSegments
 import java.io.File
 import java.util.Locale
 import java.util.concurrent.CompletableFuture

@@ -1,6 +1,6 @@
-package deckers.thibault.aves.metadata
+package com.galleryze.app.metadata
 
-import deckers.thibault.aves.utils.toHex
+import com.galleryze.app.utils.toHex
 import java.math.BigInteger
 import java.nio.charset.Charset
 

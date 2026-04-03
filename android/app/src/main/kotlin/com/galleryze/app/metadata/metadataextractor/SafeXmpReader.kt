@@ -1,4 +1,4 @@
-package deckers.thibault.aves.metadata.metadataextractor
+package com.galleryze.app.metadata.metadataextractor
 
 import android.util.Log
 import com.adobe.internal.xmp.XMPException
@@ -14,7 +14,7 @@ import com.drew.metadata.Directory
 import com.drew.metadata.Metadata
 import com.drew.metadata.xmp.XmpDirectory
 import com.drew.metadata.xmp.XmpReader
-import deckers.thibault.aves.utils.LogUtils
+import com.galleryze.app.utils.LogUtils
 import java.io.IOException
 import java.util.Locale
 

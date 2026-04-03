@@ -1,4 +1,4 @@
-package deckers.thibault.aves.decoding
+package com.galleryze.app.decoding
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -11,17 +11,17 @@ import android.os.Build
 import android.util.Log
 import androidx.core.graphics.createBitmap
 import com.bumptech.glide.Glide
-import deckers.thibault.aves.channel.streams.darttoplatform.ByteSink
-import deckers.thibault.aves.glide.AvesAppGlideModule
-import deckers.thibault.aves.glide.MultiPageImage
-import deckers.thibault.aves.utils.BitmapRegionDecoderCompat
-import deckers.thibault.aves.utils.BitmapUtils
-import deckers.thibault.aves.utils.BitmapUtils.describe
-import deckers.thibault.aves.utils.LogUtils
-import deckers.thibault.aves.utils.MathUtils
-import deckers.thibault.aves.utils.MemoryUtils
-import deckers.thibault.aves.utils.MimeTypes
-import deckers.thibault.aves.utils.StorageUtils
+import com.galleryze.app.channel.streams.darttoplatform.ByteSink
+import com.galleryze.app.glide.AvesAppGlideModule
+import com.galleryze.app.glide.MultiPageImage
+import com.galleryze.app.utils.BitmapRegionDecoderCompat
+import com.galleryze.app.utils.BitmapUtils
+import com.galleryze.app.utils.BitmapUtils.describe
+import com.galleryze.app.utils.LogUtils
+import com.galleryze.app.utils.MathUtils
+import com.galleryze.app.utils.MemoryUtils
+import com.galleryze.app.utils.MimeTypes
+import com.galleryze.app.utils.StorageUtils
 import java.io.ByteArrayInputStream
 import java.nio.ByteBuffer
 import java.util.concurrent.locks.ReentrantLock
